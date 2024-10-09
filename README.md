@@ -2,7 +2,7 @@
 ## Developed by the do it for the fish team, in collaboration with the flying fish technology team
 
 ### Description 
-This project is a simulation of an underwater environmet using VR. the simulation is built using Unreal engine, and the main point of the project is to use real data, to educate people about the reefs. Currently this version of the project only has one environment model loaded. The environment model was built using the photogrammetry software reality capture and images of the environment. The purpose of this project is to be deployed in environments like an aquarium in order to educate users about reef and fishes. 
+This project is a simulation of an underwater environmet using VR. the simulation is built using Unreal engine, and the main point of the project is to use real data, to educate people about the reefs. Currently this version of the project only has one environment model loaded. The environment model was built using the photogrammetry software reality capture and images of the environment. The purpose of this project is to be deployed in environments like an aquarium in order to educate users about reef and fishes. To download the full version of this code go to this link : https://www.dropbox.com/scl/fi/jqwojqiaae1a42oq8cimz/project17.zip?rlkey=ttnc49c82u7761qk4l3l5w2z8&st=e8uncuju&dl=0
 
 ### Requirements to run this program
 - Unreal Engine (version 5.4 or later) link : https://www.unrealengine.com/en-US/download
