@@ -23,8 +23,8 @@ Unzip the codebase and open the file, then double click the Unreal engine projec
 
 For the UI widgets look at the top right and click Graph to view the blueprint
 
-### If you are running and compilig the full version, follow the steps below
-If you are having trouble isntalling steam watch this guide here : https://www.youtube.com/watch?v=zkETI3ITNHc
+### If you are running and compiling the full version, follow the steps below
+If you are having trouble installing steam watch this guide here : https://www.youtube.com/watch?v=zkETI3ITNHc
 
 Make sure your Meta Quest VR headset is already setup before beginning
 
