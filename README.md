@@ -12,7 +12,7 @@ This project is a simulation of an underwater environmet using VR. the simulatio
 
 If you are having trouble installing Unreal Engine watch this guide here : https://www.youtube.com/watch?v=ODxm8iuOVak
 
-### If your just reading the codebase, and not running the full code, 
+### If you're just reading the codebase, and not running the full code, 
 Unzip the codebase and open the file, then double click the Unreal engine project file. Now click the content drawer to find all the files. The files we made changes to or created are : 
 - FirstPerson/Blueprints/BP_FirstPersonCharacter : Contains code for the first person pov, how it interacts with items. Changes made, Crated funcion looking. 
 - View_fish/Items/Item_1 : A grabbable fish item that has code on how the user interacts with it and what it should do if interacted with. Created by us
