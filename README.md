@@ -12,6 +12,18 @@ This project is a simulation of an underwater environmet using VR. the simulatio
 
 If you are having trouble installing Unreal Engine watch this guide here : https://www.youtube.com/watch?v=ODxm8iuOVak
 
+### If your just reading the codebase, and not running the full code, 
+Unzip the codebase and open the file, then double click the Unreal engine project file. Now click the content drawer to find all the files. The files we made changes to or created are : 
+- FirstPerson/Blueprints/BP_FirstPersonCharacter : Contains code for the first person pov, how it interacts with items. Changes made, Crated funcion looking. 
+- View_fish/Items/Item_1 : A grabbable fish item that has code on how the user interacts with it and what it should do if interacted with. Created by us
+- View_fish/UI/Display_help : Widget code. Created by us
+- View_fish/UI/Inspection : Widget for first person POV. Created by us
+- View_fish/UI/InspectionVR : Widget for VR POV. Created by us
+- VRTemplate/Blueprints/VRPawn : Contains code controlling the VR pov as well as actions and functions. Changes made, Created funcitons are looking, toggleinspect, areacheck, stopinsepct
+
+For the UI widgets look at the top right and click Graph to view the blueprint
+
+### If you are running and compilig the full version, follow the steps below
 If you are having trouble isntalling steam watch this guide here : https://www.youtube.com/watch?v=zkETI3ITNHc
 
 Make sure your Meta Quest VR headset is already setup before beginning
@@ -26,5 +38,11 @@ In order to setup the Meta Quest VR headset in order to link with the unreal eng
 
 Once thats all done, click the content browser in the bottom left of the unreal engine and open the file called Stage. Then click on the file called level. This should open the currently setup VR environment. If you setup the link level beforehand so that you could run the level in VR, You should see the green triangle in the top. Click this to then run the enviroment, allowing you to test and experience the prototype.
 
+Credits for the 3d model: 
+- Fish Collection by shedmon : https://sketchfab.com/3d-models/fish-collection-84a4238a77e541f0ae7db54ccf9f6d8e No changes made
+- Yellow tang by JayNme : https://sketchfab.com/3d-models/oxidane-yellow-tang-5750f70ac6734728b0eb3ed81de9bb2d No changes made
+- Triggerfish by Jivo3dAssets : https://3dexport.com/3dmodel-triggerfish-416259.htm Some changes made
+- Coral beauty fish : https://free3d.com/3d-model/coral-beauty-angelfish-v1--473554.html No changes made
 
+  
 
