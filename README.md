@@ -8,9 +8,9 @@ This project is a simulation of an underwater environmet using VR. the simulatio
 - Unreal Engine (version 5.4 or later) link : https://www.unrealengine.com/en-US/download
 - Meta Quest Link app : https://www.meta.com/en-gb/help/quest/articles/headsets-and-accessories/oculus-rift-s/install-app-for-link/
 - Meta Quest VR headset
-- SteamVR : https://store.steampowered.com/about/
 
-If you are having trouble installing Unreal Engine watch this guide here : https://www.youtube.com/watch?v=ODxm8iuOVak
+Before you begin you will want to install Unreal engine. To do this you should first download the epic games launcher from the link above. Once you have installed the launcher, run it. Once the epic games 
+launcher is installed, open it and either sign in or create an account. Once that's done, you should be taken to the main page for the launcher. If you look to the left of your screen you will see a link to the Unreal engine. If you click this, you will be taken to the unreal engine page. Then in the top right, you will see a button to install unreal engine. Click this and onces the install is done, you should now be able to launch the engine. The only way to view the blueprints of an unreal engine project is inside the unreal engine. If you want to make your own models, you can also download reality capture from this page. 
 
 ### If you're just reading the codebase, and not running the full code, 
 Unzip the codebase and open the file, then double click the Unreal engine project file. Now click the content drawer to find all the files. The files we made changes to or created are : 
@@ -43,6 +43,8 @@ Credits for the 3d model:
 - Yellow tang by JayNme : https://sketchfab.com/3d-models/oxidane-yellow-tang-5750f70ac6734728b0eb3ed81de9bb2d No changes made
 - Triggerfish by Jivo3dAssets : https://3dexport.com/3dmodel-triggerfish-416259.htm Some changes made
 - Coral beauty fish : https://free3d.com/3d-model/coral-beauty-angelfish-v1--473554.html No changes made
+- Underwater environment made in photogrammetry software reality capture using images provided by the Flying fish technologies team. 
 
-  
-
+Troubleshooting videos and guides:
+If your having trouble installing unreal engine watch this video : https://www.youtube.com/watch?v=ODxm8iuOVak
+If your having trouble creating an epic games account watch this video : https://www.youtube.com/watch?v=5h2h7_232y0
