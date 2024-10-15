@@ -45,6 +45,15 @@ Credits for the 3d model:
 - Coral beauty fish : https://free3d.com/3d-model/coral-beauty-angelfish-v1--473554.html No changes made
 - Underwater environment made in photogrammetry software reality capture using images provided by the Flying fish technologies team. 
 
+### Privacy concerns
+Unreal engine does collect data from users such as hardware performance, usage statistics and other information about what users do on the platform. If you are uncomfortable with this you can disable it. To do this open the project and in the top menu click edit. This will show a dropdown menu, where you will want to click editor preferences. Click this and scroll down to privacy. Then click both bug reports and user data and click dont send. This will stop any personal data from being sent to Epic games. None of our written blueprints collect data, and you can read through the whole project to check if your still concerned.
+
+### Security concerns
+If one is concerned about the project zip file, like if it has been changed malicously, remove the readme file and check the hash. The MD5 checksum hash of the project should be : 
+
+### Ethical concerns
+All models and information were created with throurogh research and an aim to show the true data as it is. None of the images were edited in a way to display a flase narrative before the models were formed, and the models were created to the best of our ability to show the data as accurate as possible. 
+
 Troubleshooting videos and guides:
 If your having trouble installing unreal engine watch this video : https://www.youtube.com/watch?v=ODxm8iuOVak
 If your having trouble creating an epic games account watch this video : https://www.youtube.com/watch?v=5h2h7_232y0
