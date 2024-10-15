@@ -54,6 +54,6 @@ If one is concerned about the project zip file, like if it has been changed mali
 ### Ethical concerns
 All models and information were created with throurogh research and an aim to show the true data as it is. None of the images were edited in a way to display a flase narrative before the models were formed, and the models were created to the best of our ability to show the data as accurate as possible. 
 
-Troubleshooting videos and guides:
+### Troubleshooting videos and guides:
 If your having trouble installing unreal engine watch this video : https://www.youtube.com/watch?v=ODxm8iuOVak
 If your having trouble creating an epic games account watch this video : https://www.youtube.com/watch?v=5h2h7_232y0
