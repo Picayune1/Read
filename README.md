@@ -36,14 +36,14 @@ Once you have opened the project in Unreal engine, You can click the content dra
 - View_items : Contains the items used in the stages, as well as the view interface and UI's. This includes fish items and coral arrows placed near corals on the map. The interface which all these items use to be able to be viewed and display information to the users and the UI's that display this information
 - VRTemplate : The blueprints, FX, materials and inputs for the VR character and its controls
 
-### Code we've implemented : 
-- Contains code for the first person pov, how it interacts with items. Changes made, Crated funcion looking. 
-- View_fish/Items/Item_1 : A grabbable fish item that has code on how the user interacts with it and what it should do if interacted with. Created by us
-- View_fish/UI/Display_help : Widget code. Created by us
-- View_fish/UI/Inspection : Widget for first person POV. Created by us
-- View_fish/UI/InspectionVR : Widget for VR POV. Created by us
-- VRTemplate/Blueprints/VRPawn : Contains code controlling the VR pov as well as actions and functions. Changes made, Created funcitons are looking, toggleinspect, areacheck, stopinsepct
+### Code we've implemented or changed: 
+To look at the Blueprints of an asset, double click it 
+- FirstPerson/Blueprints : Added some code to pickup fish with pickup interface. Added the function Looking.
+- VRTemplate/Blueprints/VRPawn : Added code to check area for items like coral or fishes. Also to show information if fish picked up. Added functions looking, AreaCheck, stopInspect, ToggleInspect.
+- View_items : All assets in this folder added by us. The items are the things users interact with on stage. The UI is the displays the user see's. The interface is the interact interface which all items implement in order to be able to be interacted with. 
 For the UI widgets look at the top right and click Graph to view the blueprint
+
+Stage designed with inspiration from this video : https://www.youtube.com/watch?v=xHH1R7VPcTA
 
 Credits for the 3d model: 
 - Fish Collection by shedmon : https://sketchfab.com/3d-models/fish-collection-84a4238a77e541f0ae7db54ccf9f6d8e No changes made
