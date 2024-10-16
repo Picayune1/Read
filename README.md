@@ -65,3 +65,4 @@ All models and information were created with throurogh research and an aim to sh
 - If your having trouble installing unreal engine watch this video : https://www.youtube.com/watch?v=ODxm8iuOVak
 - If your having trouble creating an epic games account watch this video : https://www.youtube.com/watch?v=5h2h7_232y0
 - If you are having trouble linking your VR headset to your PC, follow the guide on the official Meta Quest page here : https://www.meta.com/en-gb/help/quest/articles/headsets-and-accessories/oculus-link/connect-with-air-link/
+- If your having trouble changing to VR gamemode or setting to VR preview follow along with this video : https://www.youtube.com/watch?v=Qoa6hdxGOL8
