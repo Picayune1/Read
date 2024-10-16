@@ -12,11 +12,25 @@ This project is a simulation of an underwater environmet using VR. the simulatio
 Before you begin you will want to install Unreal engine. To do this you should first download the epic games launcher from the link above. Once you have installed the launcher, run it. Once the epic games 
 launcher is installed, open it and either sign in or create an account. Once that's done, you should be taken to the main page for the launcher. If you look to the left of your screen you will see a link to the Unreal engine. If you click this, you will be taken to the unreal engine page. Then in the top right, you will see a button to install unreal engine. Click this and onces the install is done, you should now be able to launch the engine. The only way to view the blueprints of an unreal engine project is inside the unreal engine. If you want to make your own models, you can also download reality capture from this page. 
 
-Once you have unreal engine installed and working, you can now open the file. To do this first unzip the file. Then open it and look for the unreal engine project file called Ocean Life VR. Then double click this file to open the project in Unreal engine. You can also, take the unzipped file and place it in the Unreal_projects file that should have been created once you installed and opened the Unreal engine. Drop the unzipped file into the unreal proejcts file. Then you can launch unreal engine from the epic games launcher. You will see a project called Ocean Life VR, which you can then open to see the project. 
+Once you have unreal engine installed and working, you can now open the file. To do this first unzip the file. Then open it and look for the unreal engine project file called Ocean_Life_VR. Then double click this file to open the project in Unreal engine. You can also, take the unzipped file and place it in the Unreal_projects file that should have been created once you installed and opened the Unreal engine. Drop the unzipped file into the unreal projects file. Then you can launch unreal engine from the epic games launcher. You will see a project called Ocean_Life_VR, which you can then open to see the project.
 
 ### Files in the codebase
-Once you are in the  : 
-- FirstPerson/Blueprints/BP_FirstPersonCharacter : Contains code for the first person pov, how it interacts with items. Changes made, Crated funcion looking. 
+Once you have opened the project in Unreal engine, You can click the content drawer in the bottom left to see the files in the content foleder: 
+- Character : Containts animations, meshes and materials for the movement and animations of a VR characters hands 
+- FirstPerson : Contains the blueprints, and inputs for the controls of a first person character. Though not used in the final prototype, can still be used to test debugging
+- FirstPersonArms : Contains the animation and character models for the first person character
+- Fishes : Contains the materials, textures and static meshes used for the fishes
+- FX : Contains any special FX used in the project, in this case, the schooling system
+- LevelPrototyping : Some basic shapes and materials used to build levels.
+- PhotoModels : Contains the static meshes, materials and textures for the photogrametric models used in the project
+- PickupFish : Interface and UI used to interact with fishes in first person. Not used in final project
+- Scenery : Contains sand, water and other materials and textures used in the stage
+- Stage : Contains the prototype level. Double click to see the prototype and run to test out
+- View_items : Contains the items used in the stages, as well as the view interface and UI's. This includes fish items and coral arrows placed near corals on the map. The interface which all these items use to be able to be viewed and display information to the users and the UI's that display this information
+- VRTemplate : The blueprints, FX, materials and inputs for the VR character and its controls
+
+### Code we've implemented : 
+- Contains code for the first person pov, how it interacts with items. Changes made, Crated funcion looking. 
 - View_fish/Items/Item_1 : A grabbable fish item that has code on how the user interacts with it and what it should do if interacted with. Created by us
 - View_fish/UI/Display_help : Widget code. Created by us
 - View_fish/UI/Inspection : Widget for first person POV. Created by us
