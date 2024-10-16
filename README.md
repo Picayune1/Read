@@ -9,6 +9,8 @@ This project is a simulation of an underwater environmet using VR. the simulatio
 - Meta Quest Link app : https://www.meta.com/en-gb/help/quest/articles/headsets-and-accessories/oculus-rift-s/install-app-for-link/
 - Meta Quest VR headset
 
+
+### Setup
 Before you begin you will want to install Unreal engine. To do this you should first download the epic games launcher from the link above. Once you have installed the launcher, run it. Once the epic games 
 launcher is installed, open it and either sign in or create an account. Once that's done, you should be taken to the main page for the launcher. If you look to the left of your screen you will see a link to the Unreal engine. If you click this, you will be taken to the unreal engine page. Then in the top right, you will see a button to install unreal engine. Click this and onces the install is done, you should now be able to launch the engine. The only way to view the blueprints of an unreal engine project is inside the unreal engine. If you want to make your own models, you can also download reality capture from this page. 
 
