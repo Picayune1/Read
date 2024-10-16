@@ -12,8 +12,10 @@ This project is a simulation of an underwater environmet using VR. the simulatio
 Before you begin you will want to install Unreal engine. To do this you should first download the epic games launcher from the link above. Once you have installed the launcher, run it. Once the epic games 
 launcher is installed, open it and either sign in or create an account. Once that's done, you should be taken to the main page for the launcher. If you look to the left of your screen you will see a link to the Unreal engine. If you click this, you will be taken to the unreal engine page. Then in the top right, you will see a button to install unreal engine. Click this and onces the install is done, you should now be able to launch the engine. The only way to view the blueprints of an unreal engine project is inside the unreal engine. If you want to make your own models, you can also download reality capture from this page. 
 
-### If you're just reading the codebase, and not running the full code, 
-Unzip the codebase and open the file, then double click the Unreal engine project file. Now click the content drawer to find all the files. The files we made changes to or created are : 
+Once you have unreal engine installed and working, you can now open the file. To do this first unzip the file. Then open it and look for the unreal engine project file called Ocean Life VR. Then double click this file to open the project in Unreal engine. You can also, take the unzipped file and place it in the Unreal_projects file that should have been created once you installed and opened the Unreal engine. Drop the unzipped file into the unreal proejcts file. Then you can launch unreal engine from the epic games launcher. You will see a project called Ocean Life VR, which you can then open to see the project. 
+
+### Files in the codebase
+Once you are in the  : 
 - FirstPerson/Blueprints/BP_FirstPersonCharacter : Contains code for the first person pov, how it interacts with items. Changes made, Crated funcion looking. 
 - View_fish/Items/Item_1 : A grabbable fish item that has code on how the user interacts with it and what it should do if interacted with. Created by us
 - View_fish/UI/Display_help : Widget code. Created by us
