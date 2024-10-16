@@ -14,6 +14,8 @@ launcher is installed, open it and either sign in or create an account. Once tha
 
 Once you have unreal engine installed and working, you can now open the file. To do this first unzip the file. Then open it and look for the unreal engine project file called Ocean_Life_VR. Then double click this file to open the project in Unreal engine. You can also, take the unzipped file and place it in the Unreal_projects file that should have been created once you installed and opened the Unreal engine. Drop the unzipped file into the unreal projects file. Then you can launch unreal engine from the epic games launcher. You will see a project called Ocean_Life_VR, which you can then open to see the project.
 
+Now you will want to get VR setup so you can run it in 
+
 ### Files in the codebase
 Once you have opened the project in Unreal engine, You can click the content drawer in the bottom left to see the files in the content foleder: 
 - Character : Containts animations, meshes and materials for the movement and animations of a VR characters hands 
@@ -65,11 +67,12 @@ Credits for the 3d model:
 Unreal engine does collect data from users such as hardware performance, usage statistics and other information about what users do on the platform. If you are uncomfortable with this you can disable it. To do this open the project and in the top menu click edit. This will show a dropdown menu, where you will want to click editor preferences. Click this and scroll down to privacy. Then click both bug reports and user data and click dont send. This will stop any personal data from being sent to Epic games. None of our written blueprints collect data, and you can read through the whole project to check if your still concerned.
 
 ### Security concerns
-If one is concerned about the project zip file, like if it has been changed malicously, remove the readme file and check the hash. The MD5 checksum hash of the project should be : 
+If one is concerned about the project zip file, like if it has been changed malicously, remove the readme file and check the hash. The MD5 checksum hash of the project should be :  
 
 ### Ethical concerns
 All models and information were created with throurogh research and an aim to show the true data as it is. None of the images were edited in a way to display a flase narrative before the models were formed, and the models were created to the best of our ability to show the data as accurate as possible. 
 
 ### Troubleshooting videos and guides:
-If your having trouble installing unreal engine watch this video : https://www.youtube.com/watch?v=ODxm8iuOVak
-If your having trouble creating an epic games account watch this video : https://www.youtube.com/watch?v=5h2h7_232y0
+- If your having trouble installing unreal engine watch this video : https://www.youtube.com/watch?v=ODxm8iuOVak
+- If your having trouble creating an epic games account watch this video : https://www.youtube.com/watch?v=5h2h7_232y0
+- If you are having trouble linking your VR headset to your PC, follow the guide on the official Meta Quest page here : https://www.meta.com/en-gb/help/quest/articles/headsets-and-accessories/oculus-link/connect-with-air-link/
