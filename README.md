@@ -14,7 +14,11 @@ launcher is installed, open it and either sign in or create an account. Once tha
 
 Once you have unreal engine installed and working, you can now open the file. To do this first unzip the file. Then open it and look for the unreal engine project file called Ocean_Life_VR. Then double click this file to open the project in Unreal engine. You can also, take the unzipped file and place it in the Unreal_projects file that should have been created once you installed and opened the Unreal engine. Drop the unzipped file into the unreal projects file. Then you can launch unreal engine from the epic games launcher. You will see a project called Ocean_Life_VR, which you can then open to see the project.
 
-Now you will want to get VR setup so you can run it in 
+Now you will want to get VR setup so you can run it in the Unreal engine. To do this first you will want to setup the VR. This can be done by following the instructions of the VR when you first turn it on. Once you have set up your VR you will want to connect it to your PC. To do this for a Meta Quest VR, You will want to download the Meta Quest link app on your PC. Then sign into your Meta Quest account on the PC app. You will then want to connect your Meta Quest to your PC through the app either using a cable or air link. Once your VR headset is connected you want to go to settings in your Meta Quest PC app and go to General and set Meta Meta Quest link as OpenXR runtime. This will mean you wont have to use third party software like Steam to connect to the unreal engine. 
+
+Now that your VR headset is connected to your PC, you now need to set up the project so you can start it in VR. To do this, open the project in Unreal engine. Then in the top right of the screen click the settings button. This will show a dropdown. Click the project settings. Then click Maps and Models underneath the Project section. You will see a section to select the Default gamemode. Click this and set it to the VRGameMode. If your VR headset is connected, you should now be able to click the 3 dots in the menu at the top of the screen and select VR preview. Once thats done your almost ready to play the level in VR. 
+
+For the final step, click the content drawer in the bottom left and click the folder called Stage. You will see an item in the folder called level. Click this twice to open the ocean environment. Finally click the green triangle in the top menu to begin playing the sample environment in VR. 
 
 ### Files in the codebase
 Once you have opened the project in Unreal engine, You can click the content drawer in the bottom left to see the files in the content foleder: 
@@ -38,23 +42,8 @@ Once you have opened the project in Unreal engine, You can click the content dra
 - View_fish/UI/Inspection : Widget for first person POV. Created by us
 - View_fish/UI/InspectionVR : Widget for VR POV. Created by us
 - VRTemplate/Blueprints/VRPawn : Contains code controlling the VR pov as well as actions and functions. Changes made, Created funcitons are looking, toggleinspect, areacheck, stopinsepct
-
 For the UI widgets look at the top right and click Graph to view the blueprint
 
-### If you are running and compiling the full version, follow the steps below
-If you are having trouble installing steam watch this guide here : https://www.youtube.com/watch?v=zkETI3ITNHc
-
-Make sure your Meta Quest VR headset is already setup before beginning
-
-You will have to link your PC Meta Quest Link app to your Meta Quest VR headset using either a cable or air link. First you will have to download and setup the Meta Quest Link app on your PC. Make sure to use the same account that you use for your actual Meta Quest VR headset on the Meta Quest Link app. If your struggling heres a video : https://www.youtube.com/watch?v=BTCtMrEbZQo&t=20s
-
-Then you can link your Meta Quest VR headset to your PC using either air link or a cable. If you are having trouble linking your VR headset to your PC, follow the guide on the official Meta Quest page here : https://www.meta.com/en-gb/help/quest/articles/headsets-and-accessories/oculus-link/connect-with-air-link/
-
-Now download the unreal engine file and unzip. Now open the file and double click the Unreal engine project file
-
-In order to setup the Meta Quest VR headset in order to link with the unreal engine, You will need to set it up in the Unreal engine file. This guide gives a good breakdown of what you should do to setup the file so it can be previewed in VR : https://www.youtube.com/watch?v=Z4sClxhgsxk
-
-Once thats all done, click the content browser in the bottom left of the unreal engine and open the file called Stage. Then click on the file called level. This should open the currently setup VR environment. If you setup the link level beforehand so that you could run the level in VR, You should see the green triangle in the top. Click this to then run the enviroment, allowing you to test and experience the prototype.
 
 Credits for the 3d model: 
 - Fish Collection by shedmon : https://sketchfab.com/3d-models/fish-collection-84a4238a77e541f0ae7db54ccf9f6d8e No changes made
