@@ -9,23 +9,23 @@ This project is a simulation of an underwater environment using VR. The simulati
 - Meta Quest Link app : https://www.meta.com/en-gb/help/quest/articles/headsets-and-accessories/oculus-rift-s/install-app-for-link/
 - Meta Quest VR headset
 
-# Setup Instructions
+## Setup Instructions
 
-## 1. Install Unreal Engine
+### 1. Install Unreal Engine
 1. Download and install the **Epic Games Launcher** from [this link](https://www.epicgames.com/store/en-US/download).
 2. Once installed, open the Epic Games Launcher and either **sign in** or **create an account**.
 3. On the left sidebar of the launcher, click on **Unreal Engine** to go to the Unreal Engine page.
 4. In the top-right corner, click the **Install Engine** button to install Unreal Engine.
 5. Once the installation is complete, you'll be able to launch Unreal Engine.
 
-## 2. Download the Project
+### 2. Download the Project
 1. Unzip the project file (`Ocean_Life_VR.zip`).
 2. Navigate to the folder where you unzipped the file.
 3. Look for the Unreal Engine project file called `Ocean_Life_VR.uproject` and double-click it to open the project in Unreal Engine.
 
    - Alternatively, you can move the unzipped project folder into your `Unreal Projects` folder (which was created when Unreal Engine was first installed). Then launch the Epic Games Launcher and you should see the `Ocean_Life_VR` project listed. Click on it to open.
 
-## 3. Set Up VR for Meta Quest
+### 3. Set Up VR for Meta Quest
 1. Set up your **VR headset** following the instructions that come with your device.
 2. For Meta Quest:
    1. Download and install the **Meta Quest Link** app on your PC.
@@ -34,14 +34,14 @@ This project is a simulation of an underwater environment using VR. The simulati
    4. Go to **Settings > General** in the Meta Quest PC app and set **Meta Quest Link as OpenXR runtime**.
       - This allows Unreal Engine to connect directly to the VR headset without using third-party software like SteamVR.
 
-## 4. Configure the Project for VR in Unreal Engine
+### 4. Configure the Project for VR in Unreal Engine
 1. Open the `Ocean_Life_VR` project in Unreal Engine.
 2. In the top-right corner, click **Settings** and select **Project Settings**.
 3. Scroll to the **Maps & Modes** section under the **Project** tab.
    - In the **Default GameMode** section, set the game mode to **VRGameMode**.
 4. If your VR headset is connected, click the **3 dots** menu at the top of the screen and select **VR Preview**.
 
-## 5. Load the Ocean Environment Level
+### 5. Load the Ocean Environment Level
 1. In Unreal Engine, click on the **Content Drawer** at the bottom left of the screen.
 2. Navigate to the folder called **Stage**.
 3. Double-click the **level** file in this folder to load the ocean environment.
