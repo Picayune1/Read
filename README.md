@@ -1,5 +1,5 @@
 # Ocean Life VR: Beneath The Waves
-## Developed by the do it for the fish team, in collaboration with the flying fish technology team
+## Developed by the Do it for the Fish team, in collaboration with the Flying Fish Technologies team
 
 ### Description 
 This project is a simulation of an underwater environment using VR. The simulation is built using Unreal Engine, and the main point of the project is to use real data, to educate people about the reefs and fishes. Currently this version of the project only has one environment model loaded. The environment model was built using the photogrammetry software reality capture and images of the environment. The purpose of this project is to be deployed in environments like an aquarium in order to educate users about reef and fishes.
@@ -9,18 +9,46 @@ This project is a simulation of an underwater environment using VR. The simulati
 - Meta Quest Link app : https://www.meta.com/en-gb/help/quest/articles/headsets-and-accessories/oculus-rift-s/install-app-for-link/
 - Meta Quest VR headset
 
-### Setup
-Before you begin you will want to install Unreal engine. To do this you should first download the epic games launcher from the link above. Once you have installed the launcher, run it. Once the epic games 
-launcher is installed, open it and either sign in or create an account. Once that's done, you should be taken to the main page for the launcher. If you look to the left of your screen you will see a link to the Unreal engine. If you click this, you will be taken to the unreal engine page. Then in the top right, you will see a button to install unreal engine. Click this and onces the install is done, you should now be able to launch the engine. The only way to view the blueprints of an unreal engine project is inside the unreal engine. If you want to make your own models, you can also download reality capture from this page. 
+# Setup Instructions
 
-Once you have unreal engine installed and working, you can now open the file. To do this first unzip the file. Then open it and look for the unreal engine project file called Ocean_Life_VR. Then double click this file to open the project in Unreal engine. You can also, take the unzipped file and place it in the Unreal_projects file that should have been created once you installed and opened the Unreal engine. Drop the unzipped file into the unreal projects file. Then you can launch unreal engine from the epic games launcher. You will see a project called Ocean_Life_VR, which you can then open to see the project.
+## 1. Install Unreal Engine
+1. Download and install the **Epic Games Launcher** from [this link](https://www.epicgames.com/store/en-US/download).
+2. Once installed, open the Epic Games Launcher and either **sign in** or **create an account**.
+3. On the left sidebar of the launcher, click on **Unreal Engine** to go to the Unreal Engine page.
+4. In the top-right corner, click the **Install Engine** button to install Unreal Engine.
+5. Once the installation is complete, you'll be able to launch Unreal Engine.
 
-Now you will want to get VR setup so you can run it in the Unreal engine. To do this first you will want to setup the VR. This can be done by following the instructions of the VR when you first turn it on. Once you have set up your VR you will want to connect it to your PC. To do this for a Meta Quest VR, You will want to download the Meta Quest link app on your PC. Then sign into your Meta Quest account on the PC app. You will then want to connect your Meta Quest to your PC through the app either using a cable or air link. Once your VR headset is connected you want to go to settings in your Meta Quest PC app and go to General and set Meta Quest link as OpenXR runtime. This will mean you wont have to use third party software like Steam to connect to the unreal engine. 
+## 2. Download the Project
+1. Unzip the project file (`Ocean_Life_VR.zip`).
+2. Navigate to the folder where you unzipped the file.
+3. Look for the Unreal Engine project file called `Ocean_Life_VR.uproject` and double-click it to open the project in Unreal Engine.
 
-Now that your VR headset is connected to your PC, you now need to set up the project so you can start it in VR. To do this, open the project in Unreal engine. Then in the top right of the screen click the settings button. This will show a dropdown. Click the project settings. Then click Maps and Models underneath the Project section. You will see a section to select the Default gamemode. Click this and set it to the VRGameMode. If your VR headset is connected, you should now be able to click the 3 dots in the menu at the top of the screen and select VR preview. Once thats done your almost ready to play the level in VR. 
+   - Alternatively, you can move the unzipped project folder into your `Unreal Projects` folder (which was created when Unreal Engine was first installed). Then launch the Epic Games Launcher and you should see the `Ocean_Life_VR` project listed. Click on it to open.
 
-For the final step, click the content drawer in the bottom left and click the folder called Stage. You will see an item in the folder called level. Click this twice to open the ocean environment. Finally click the green triangle in the top menu to begin playing the sample environment in VR. 
+## 3. Set Up VR for Meta Quest
+1. Set up your **VR headset** following the instructions that come with your device.
+2. For Meta Quest:
+   1. Download and install the **Meta Quest Link** app on your PC.
+   2. Sign in to your Meta Quest account on the PC app.
+   3. Connect your Meta Quest headset to your PC using a cable or Air Link through the Meta Quest app.
+   4. Go to **Settings > General** in the Meta Quest PC app and set **Meta Quest Link as OpenXR runtime**.
+      - This allows Unreal Engine to connect directly to the VR headset without using third-party software like SteamVR.
 
+## 4. Configure the Project for VR in Unreal Engine
+1. Open the `Ocean_Life_VR` project in Unreal Engine.
+2. In the top-right corner, click **Settings** and select **Project Settings**.
+3. Scroll to the **Maps & Modes** section under the **Project** tab.
+   - In the **Default GameMode** section, set the game mode to **VRGameMode**.
+4. If your VR headset is connected, click the **3 dots** menu at the top of the screen and select **VR Preview**.
+
+## 5. Load the Ocean Environment Level
+1. In Unreal Engine, click on the **Content Drawer** at the bottom left of the screen.
+2. Navigate to the folder called **Stage**.
+3. Double-click the **level** file in this folder to load the ocean environment.
+4. To start playing the sample environment in VR, click the **green play button** (triangle icon) in the top menu.
+
+You're now ready to explore the Ocean Life VR environment in virtual reality! Also note that if you do not have a VR headset, you can also experience this project in first person - but some features will not be optimised for it.
+ 
 ### Files in the codebase
 Once you have opened the project in Unreal engine, You can click the content drawer in the bottom left to see the files in the content foleder: 
 - Character : Contains animations, meshes and materials for the movement and animations of a VR character's hands 
@@ -53,7 +81,7 @@ Credits for the 3d model:
 - Underwater environment made in photogrammetry software reality capture using images provided by the Flying fish technologies team. 
 
 ### Privacy concerns
-Unreal engine does collect data from users such as hardware performance, usage statistics and other information about what users do on the platform. If you are uncomfortable with this you can disable it. To do this open the project and in the top menu click edit. This will show a dropdown menu, where you will want to click editor preferences. Click this and scroll down to privacy. Then click both bug reports and user data and click dont send. This will stop any personal data from being sent to Epic games. None of our written blueprints collect data, and you can read through the whole project to check if your still concerned.
+Unreal Engine does collect data from users such as hardware performance, usage statistics and other information about what users do on the platform. If you are uncomfortable with this you can disable it. To do this open the project and in the top menu click edit. This will show a dropdown menu, where you will want to click editor preferences. Click this and scroll down to privacy. Then click both bug reports and user data and click dont send. This will stop any personal data from being sent to Epic games. None of our written blueprints collect data, and you can read through the whole project to check if your still concerned.
 
 ### Security concerns
 If one is concerned about the project zip file, like if it has been changed malicously, remove the readme file and check the hash. The MD5 checksum hash of the project should be :  
