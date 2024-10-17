@@ -66,9 +66,9 @@ Once you have opened the project in Unreal engine, You can click the content dra
 
 ### Code we've implemented or changed: 
 To look at the Blueprints of an asset, double click it 
-- FirstPerson/Blueprints : Added some code to pickup fish with pickup interface. Added the function Looking.
-- VRTemplate/Blueprints/VRPawn : Added code to check area for items like coral or fishes. Also to show information if fish picked up. Added functions looking, AreaCheck, stopInspect, ToggleInspect.
-- View_items : All assets in this folder added by us. The items are the things users interact with on stage. The UI is the displays the user see's. The interface is the interact interface which all items implement in order to be able to be interacted with. 
+- **FirstPerson/Blueprints** : Added some code to pickup fish with pickup interface. Added the function Looking.
+- **VRTemplate/Blueprints/VRPawn** : Added code to check area for items like coral or fishes. Also to show information if fish picked up. Added functions looking, AreaCheck, stopInspect, ToggleInspect.
+- **View_items** : All assets in this folder added by us. The items are the things users interact with on stage. The UI is the displays the user see's. The interface is the interact interface which all items implement in order to be able to be interacted with. 
 For the UI widgets look at the top right and click Graph to view the blueprint
 
 Stage designed with inspiration from this video : https://www.youtube.com/watch?v=xHH1R7VPcTA
