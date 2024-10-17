@@ -73,7 +73,7 @@ For the UI widgets look at the top right and click Graph to view the blueprint
 
 Stage designed with inspiration from this video : https://www.youtube.com/watch?v=xHH1R7VPcTA
 
-Credits for the 3d model: 
+### Credits for the 3d model: 
 - Fish Collection by shedmon : https://sketchfab.com/3d-models/fish-collection-84a4238a77e541f0ae7db54ccf9f6d8e No changes made
 - Yellow tang by JayNme : https://sketchfab.com/3d-models/oxidane-yellow-tang-5750f70ac6734728b0eb3ed81de9bb2d No changes made
 - Triggerfish by Jivo3dAssets : https://3dexport.com/3dmodel-triggerfish-416259.htm Some changes made
