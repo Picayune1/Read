@@ -51,18 +51,18 @@ You're now ready to explore the Ocean Life VR environment in virtual reality! Al
  
 ### Files in the codebase
 Once you have opened the project in Unreal engine, You can click the content drawer in the bottom left to see the files in the content foleder: 
-- Character : Contains animations, meshes and materials for the movement and animations of a VR character's hands 
-- FirstPerson : Contains the blueprints, and inputs for the controls of a first person character. Though not used in the final prototype, can still be used to test debugging
-- FirstPersonArms : Contains the animation and character models for the first person character
-- Fishes : Contains the materials, textures and static meshes used for the fishes
-- FX : Contains any special FX used in the project, in this case, the schooling system
-- LevelPrototyping : Some basic shapes and materials used to build levels.
-- PhotoModels : Contains the static meshes, materials and textures for the photogrammetric models used in the project
-- PickupFish : Interface and UI used to interact with fishes in first person. Not used in final project
-- Scenery : Contains sand, water and other materials and textures used in the stage
-- Stage : Contains the prototype level. Double click to see the prototype and run to test out
-- View_items : Contains the items used in the stages, as well as the view interface and UI's. This includes fish items and coral arrows placed near corals on the map. The interface which all these items use to be able to be viewed and display information to the users and the UI's that display this information
-- VRTemplate : The blueprints, FX, materials and inputs for the VR character and its controls
+- **Character** : Contains animations, meshes and materials for the movement and animations of a VR character's hands 
+- **FirstPerson** : Contains the blueprints, and inputs for the controls of a first person character. Though not used in the final prototype, can still be used to test debugging
+- **FirstPersonArms** : Contains the animation and character models for the first person character
+- **Fishes** : Contains the materials, textures and static meshes used for the fishes
+- **FX** : Contains any special FX used in the project, in this case, the schooling system
+- **LevelPrototyping** : Some basic shapes and materials used to build levels.
+- **PhotoModels** : Contains the static meshes, materials and textures for the photogrammetric models used in the project
+- **PickupFish** : Interface and UI used to interact with fishes in first person. Not used in final project
+- **Scenery** : Contains sand, water and other materials and textures used in the stage
+- **Stage** : Contains the prototype level. Double click to see the prototype and run to test out
+- **View_items** : Contains the items used in the stages, as well as the view interface and UI's. This includes fish items and coral arrows placed near corals on the map. The interface which all these items use to be able to be viewed and display information to the users and the UI's that display this information
+- **VRTemplate** : The blueprints, FX, materials and inputs for the VR character and its controls
 
 ### Code we've implemented or changed: 
 To look at the Blueprints of an asset, double click it 
