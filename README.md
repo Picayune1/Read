@@ -86,6 +86,7 @@ Unreal Engine does collect data from users such as hardware performance, usage s
 ### Security concerns
 If one is concerned about the project zip file, like if it has been changed malicously, remove the readme file and check the hash. The MD5 checksum hash of the project should be :  
 ece0f2f5b701f7205f5e722df7ffdb72
+In order to make sure are solution was secure, we only implemented plugins from the official Unreal engine page, and the project can be run offline.
 ### Ethical concerns
 All models and information were created with throurogh research and an aim to show the true data as it is. None of the images were edited in a way to display a false narrative before the models were formed, and the models were created to the best of our ability to show the data as accurate as possible. 
 
