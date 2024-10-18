@@ -2,7 +2,7 @@
 ## Developed by the Do it for the Fish team, in collaboration with the Flying Fish Technologies team
 
 ### Description 
-This project is a simulation of an underwater environment using VR. The simulation is built using Unreal Engine, and the main point of the project is to use real data, to educate people about the reefs and fishes. Currently this version of the project only has one environment model loaded. The environment model was built using the photogrammetry software reality capture and images of the environment. The purpose of this project is to be deployed in environments like an aquarium in order to educate users about reef and fishes.
+This project is a simulation of an underwater environment using VR. The simulation is built using Unreal Engine, and the main point of the project is to use real data, to educate people about the reefs and fishes. Currently this version of the project only has one environment model loaded. The environment model was built using the photogrammetry software Reality Capture and images of the environment. The purpose of this project is to be deployed in environments like an aquarium in order to educate users about reef and fishes.
 
 ### Requirements to run this program
 - Unreal Engine (version 5.4 or later) link : https://www.unrealengine.com/en-US/download
@@ -47,10 +47,10 @@ This project is a simulation of an underwater environment using VR. The simulati
 3. Double-click the **level** file in this folder to load the ocean environment.
 4. To start playing the sample environment in VR, click the **green play button** (triangle icon) in the top menu.
 
-You're now ready to explore the Ocean Life VR environment in virtual reality! Also note that if you do not have a VR headset, you can also experience this project in first person - but some features will not be optimised for it.
+Also note that if you do not have a VR headset, you can also experience this project in first person - but some features will not be designed for it.
  
 ### Files in the codebase
-Once you have opened the project in Unreal engine, You can click the content drawer in the bottom left to see the files in the content foleder: 
+Once you have opened the project in Unreal Engine, You can click the content drawer in the bottom left to see the files in the content folder: 
 - **Character** : Contains animations, meshes and materials for the movement and animations of a VR character's hands 
 - **FirstPerson** : Contains the blueprints, and inputs for the controls of a first person character. Though not used in the final prototype, can still be used to test debugging
 - **FirstPersonArms** : Contains the animation and character models for the first person character
@@ -68,7 +68,7 @@ Once you have opened the project in Unreal engine, You can click the content dra
 To look at the Blueprints of an asset, double click it 
 - **FirstPerson/Blueprints** : Added some code to pickup fish with pickup interface. Added the function Looking.
 - **VRTemplate/Blueprints/VRPawn** : Added code to check area for items like coral or fishes. Also to show information if fish picked up. Added functions looking, AreaCheck, stopInspect, ToggleInspect.
-- **View_items** : All assets in this folder added by us. The items are the things users interact with on stage. The UI is the displays the user see's. The interface is the interact interface which all items implement in order to be able to be interacted with. 
+- **View_items** : All assets in this folder added by us. The items are the things users interact with on stage. The UI is the displays the user sees. The interface is the interaction interface which all items implement in order to be able to be interacted with. 
 For the UI widgets look at the top right and click Graph to view the blueprint
 
 Stage designed with inspiration from this video : https://www.youtube.com/watch?v=xHH1R7VPcTA
@@ -78,19 +78,22 @@ Stage designed with inspiration from this video : https://www.youtube.com/watch?
 - Yellow tang by JayNme : https://sketchfab.com/3d-models/oxidane-yellow-tang-5750f70ac6734728b0eb3ed81de9bb2d No changes made
 - Triggerfish by Jivo3dAssets : https://3dexport.com/3dmodel-triggerfish-416259.htm Some changes made
 - Coral beauty fish : https://free3d.com/3d-model/coral-beauty-angelfish-v1--473554.html No changes made
-- Underwater environment made in photogrammetry software reality capture using images provided by the Flying fish technologies team. 
+- Underwater environment made in photogrammetry software Reality Capture using images provided by the Flying Fish Technologies team. 
 
 ### Privacy concerns
-Unreal Engine does collect data from users such as hardware performance, usage statistics and other information about what users do on the platform. If you are uncomfortable with this you can disable it. To do this open the project and in the top menu click edit. This will show a dropdown menu, where you will want to click editor preferences. Click this and scroll down to privacy. Then click both bug reports and user data and click dont send. This will stop any personal data from being sent to Epic games. None of our written blueprints collect data, and you can read through the whole project to check if your still concerned.
+Unreal Engine does collect data from users such as hardware performance, usage statistics and other information about what users do on the platform. If you are uncomfortable with this you can disable it. To do this open the project and in the top menu click edit. This will show a dropdown menu, where you will want to click editor preferences. Click this and scroll down to privacy. Then click both bug reports and user data and click don't send. This will stop any personal data from being sent to Epic Games. None of our written blueprints collect data, and you can read through the whole project to check if you're still concerned.
 
 ### Security concerns
 In order to make sure are solution was secure, we only implemented plugins from the official Unreal engine page, and the project can be run offline, having no depedancy on external severs to post or request information. If one is concerned about the project zip file, like if it has been changed malicously, remove the readme file and check the hash. The MD5 checksum hash of the project should be :  
 ece0f2f5b701f7205f5e722df7ffdb72
+
 ### Ethical concerns
-All models and information were created with throurogh research and an aim to show the true data as it is. None of the images were edited in a way to display a false narrative before the models were formed, and the models were created to the best of our ability to show the data as accurate as possible. 
+All models and information were created with thorough research and an aim to show the true data as it is. None of the images were edited in a way to display a false narrative before the models were formed, and the models were created to the best of our ability to show the data as accurate as possible. 
 
 ### Troubleshooting videos and guides:
-- If you are having trouble installing unreal engine watch this video : https://www.youtube.com/watch?v=ODxm8iuOVak
-- If you are having trouble creating an epic games account watch this video : https://www.youtube.com/watch?v=5h2h7_232y0
+- If you are having trouble installing Unreal Engine watch this video : https://www.youtube.com/watch?v=ODxm8iuOVak
+- If you are having trouble creating an Epic Games account watch this video : https://www.youtube.com/watch?v=5h2h7_232y0
 - If you are having trouble linking your VR headset to your PC, follow the guide on the official Meta Quest page here : https://www.meta.com/en-gb/help/quest/articles/headsets-and-accessories/oculus-link/connect-with-air-link/
 - If you are having trouble changing to VR gamemode or setting to VR preview follow along with this video : https://www.youtube.com/watch?v=Qoa6hdxGOL8
+
+Once again thanks to the team at Flying Fish Technologies.
