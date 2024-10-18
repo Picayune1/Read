@@ -84,9 +84,8 @@ Stage designed with inspiration from this video : https://www.youtube.com/watch?
 Unreal Engine does collect data from users such as hardware performance, usage statistics and other information about what users do on the platform. If you are uncomfortable with this you can disable it. To do this open the project and in the top menu click edit. This will show a dropdown menu, where you will want to click editor preferences. Click this and scroll down to privacy. Then click both bug reports and user data and click dont send. This will stop any personal data from being sent to Epic games. None of our written blueprints collect data, and you can read through the whole project to check if your still concerned.
 
 ### Security concerns
-If one is concerned about the project zip file, like if it has been changed malicously, remove the readme file and check the hash. The MD5 checksum hash of the project should be :  
+In order to make sure are solution was secure, we only implemented plugins from the official Unreal engine page, and the project can be run offline, having no depedancy on external severs to post or request information. If one is concerned about the project zip file, like if it has been changed malicously, remove the readme file and check the hash. The MD5 checksum hash of the project should be :  
 ece0f2f5b701f7205f5e722df7ffdb72
-In order to make sure are solution was secure, we only implemented plugins from the official Unreal engine page, and the project can be run offline.
 ### Ethical concerns
 All models and information were created with throurogh research and an aim to show the true data as it is. None of the images were edited in a way to display a false narrative before the models were formed, and the models were created to the best of our ability to show the data as accurate as possible. 
 
